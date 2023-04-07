@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TOP Library</title>  
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+    <h1>
+      My Library
+    </h1>
+    <button class="newBookBtn" id="new-book-btn">+ Add book</button>
+  </header> 
+  
+  <form id="new-book-form" style="display: none;">
+    <label for="title">Title:</label>
+    <input type="text" id="title">
+    <label for="author">Author:</label>
+    <input type="text" id="author">
+    <br>
+    <label for="pages">Pages:</label>
+    <input type="number" id="pages">
+    <br>
+    <label for="read">Read:</label>
+    <input type="checkbox" id="read">
+    <br>
+    <input type="submit" id="submit" value="Add Book">
+  </form>
+<div id="library">
+</div>   
+  
+  </div>
+    <footer id = "footer">MADE in ATL | 2023</footer>
+</body>
+</html>
